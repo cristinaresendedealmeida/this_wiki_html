@@ -8,18 +8,11 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
-
 .bar {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
-    
-    position: fixed;  /* mantém no topo */
-    top: 0;
-    left: 0;
-    width: 100%;      /* ocupa toda a largura */
-    z-index: 1000;    /* fica acima dos outros elementos */
 }
 .logo {
     padding: 20px;
@@ -40,7 +33,7 @@ a { color:blue; text-decoration: none;}
 .main {
     padding-left: 210px;
     padding-right: 300px;
-    margin-top: 70px; /* depende da altura da sua .bar */
+
 }
 .footer {
     min-height: 100px;
