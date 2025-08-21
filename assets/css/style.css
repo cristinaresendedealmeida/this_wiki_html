@@ -39,7 +39,7 @@ a { color:blue; text-decoration: none;}
 .main {
     padding-left: 210px;
     padding-right: 300px;
-
+    margin-top: 70px; /* depende da altura da sua .bar */
 }
 .footer {
     min-height: 100px;
