@@ -25,10 +25,21 @@ a { color:blue; text-decoration: none;}
     padding-left:80px;
     flex: 1; /* Ocupa 1 parte do espaço disponível */
     max-width: 50%; /* Limita a largura da imagem */
+
+    position: fixed;  /* mantém no topo */
+    top: 0;
+    left: 0;
+    z-index: 1000;    /* fica acima dos outros elementos */
 }
 .container {
     display: flex;
     align-items: center; /* Alinha verticalmente */
+    
+    position: fixed;  /* mantém no topo */
+    top: 0;
+    left: 0;
+    width: 100%;      /* ocupa toda a largura */
+    z-index: 1000;    /* fica acima dos outros elementos */
   }
 
   .text {
